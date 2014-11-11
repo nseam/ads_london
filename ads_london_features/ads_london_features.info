@@ -1,0 +1,11 @@
+name = ADS London Features
+description = Provides features for ADS London site.
+core = 7.x
+package = ADS London
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = views
+features[context][] = ads_london_content_home
+features[ctools][] = context:context:3
+features[features_api][] = api:2
+project path = sites/all/modules/ads/ads_london

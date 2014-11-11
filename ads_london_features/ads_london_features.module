@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ADS London Features feature.
+ */
+
+include_once 'ads_london_features.features.inc';
