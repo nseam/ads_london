@@ -26,9 +26,9 @@ function ads_london_features_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-ads_selected-block' => array(
+        'views-ads_selected-recent' => array(
           'module' => 'views',
-          'delta' => 'ads_selected-block',
+          'delta' => 'ads_selected-recent',
           'region' => 'header_bottom',
           'weight' => '-10',
         ),
